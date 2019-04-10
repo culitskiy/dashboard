@@ -4,25 +4,22 @@ const initialState = {
     bord: '',
     tickets: {
         tickets1:[
-            {
-                
-            }, 
         {
             id: 1,
             title: 'New Ticketчс1', 
-            value: 'Here will be your card1', 
+            value: 'Here will be your ticket1', 
             important: false
         },
         {
             id: 2,
             title: 'New Ticket2',
-            value: 'Here will be your card2', 
+            value: 'Here will be your ticket2', 
             important: false
         },
         {
             id: 3,
             title: 'New Ticket3',
-            value: 'Here will be your card3',
+            value: 'Here will be your ticket3',
             important: true
         }
 ],
@@ -30,19 +27,19 @@ const initialState = {
     {
         id: 4,
         title: 'New Ticket4', 
-        value: 'Here will be your card4', 
+        value: 'Here will be your ticket4', 
         important: false
     },
     {
         id: 5,
         title: 'New Ticket5',
-        value: 'Here will be your card5', 
+        value: 'Here will be your ticket5', 
         important: false
     },
     {
         id: 6,
         title: 'New Ticket6',
-        value: 'Here will be your card6',
+        value: 'Here will be your ticket6',
         important: true
     }
 ]}

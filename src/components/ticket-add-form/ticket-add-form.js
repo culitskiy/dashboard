@@ -49,7 +49,7 @@ class AddModal extends React.Component {
 
         return (
 		<form>
-			// onSubmit={this.submit}>
+			{/* onSubmit={this.submit} */}
 			<div className="modal fade show">
 			<div className="modal-dialog">
 			  <div className="modal-content">
@@ -58,7 +58,7 @@ class AddModal extends React.Component {
 				  
 				  <input
 					onChange={this.titleChange}
-					className="modal-title" id='titleInput' placeholder='123'/>
+					className="modal-title" id='titleInput' placeholder='Ticket label'/>
 				  <button
 				  onClick={() => closeModal()}
 				   type="button" className="close" >
@@ -70,7 +70,7 @@ class AddModal extends React.Component {
 					<tr>
 				  <input
 				  onChange={this.valueChange}
-				   id='contentInput' placeholder='content'/></tr>
+				   id='contentInput' placeholder='Ticket content'/></tr>
 				  <tr>Important <input onClick={this.importantChange} type='checkbox'/></tr>
 				  </div>
 				

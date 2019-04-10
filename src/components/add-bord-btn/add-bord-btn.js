@@ -7,7 +7,7 @@ const AddBordBtn = ({addBord}) => {
             <button
             onClick={addBord}
              type='button' className='btn btn-outline-success btn-sm float-left'>
-                <i className='fa fa-plus'/>
+                <i className='fa fa-plus'/> Add Bord
             </button>
         </div>
     );
