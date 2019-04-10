@@ -1,0 +1,15 @@
+.bord {
+    position: relative;
+    top: 200px;
+    left: 50px;
+    background-color: rgb(209, 198, 198);
+    border: 1px groove rgb(30, 37, 44);
+	padding: 3px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    max-height: 80%;
+    max-width: 30%;
+    overflow: hidden;
+    float: left;
+    
+}

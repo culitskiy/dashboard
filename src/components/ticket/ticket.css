@@ -1,0 +1,24 @@
+.ticket {
+    border: 1px groove rgb(30, 37, 44);
+    /* padding: 3px; */
+    background-color: rgb(102, 224, 139); 
+    overflow: hidden; 
+}
+.ticket-important {
+    border: 1px groove rgb(30, 37, 44);
+    /* padding: 3px; */
+    background-color: rgb(247, 142, 142); 
+    overflow: hidden; 
+}
+.btn-group {
+padding: 3px;
+float: right;
+    
+}
+/* .add-ticket-btn-checkbox {
+    width: 35px;
+    margin: 3px;
+  } */
+.form-check {
+    padding-bottom: 5px;
+}

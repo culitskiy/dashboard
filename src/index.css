@@ -1,0 +1,11 @@
+/* html {
+ /* background-color: rgb(221, 252, 252);
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+} */
+body {
+    background-color: aqua;
+    max-width: 100%;
+}
